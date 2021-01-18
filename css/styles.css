@@ -1,0 +1,39 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*Header style*/
+header{
+    background-color: cadetblue;
+    height: 120px;
+    margin: 20px 0;
+}
+
+
+
+/*Navigation*/
+nav{
+display: flex;
+justify-content: space-between;/*usar todo el ancho disponible*/
+}
+
+nav a{
+width: 200px;
+height: 50px;
+background-color:rgb(156, 156, 156) ;
+border: 2px solid white ;
+color: rgb(24, 24, 24);
+display: flex;
+align-items: center; /*alinear verticalmente*/
+justify-content: center;
+}
+
+nav a:link {
+    text-decoration: none;
+  }
+  
+nav a:hover{
+    color:white;
+}

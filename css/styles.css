@@ -4,14 +4,27 @@ body{
     margin: 0 auto;
 }
 
-/*Header style*/
+/*Header*/
 header{
     background-color: cadetblue;
     height: 120px;
     margin: 20px 0;
 }
-
-
+#logo{
+    padding: 30px 0 0 30px;
+}
+.columns{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.social-icons{
+    font-size: 2.3em;
+    padding:30px 30px 0 0;
+}
+.social-icons a{
+    
+}
 
 /*Navigation*/
 nav{
@@ -37,3 +50,17 @@ nav a:link {
 nav a:hover{
     color:white;
 }
+
+/*Destacados*/
+.destacados{
+    display: flex;
+    justify-content: space-between;
+}
+.destacados img{
+    width: 330px;
+}
+.preview{
+    display: flex;
+    background-color: gainsboro;
+}
+

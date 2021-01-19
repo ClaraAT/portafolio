@@ -79,8 +79,14 @@ main{
     position: relative;
     left:242px;
     bottom: 24px;
-    background-color: none;
+    color:rgb(255, 255, 255);
+    background-color:#858688;
+    border: 1px solid white;
     cursor: pointer;
+    height: 25px; 
+}
+.destacado button:hover{
+    color:rgb(0, 0, 0);
 }
 /*ARTÍCULO PRINCIPAL*/
 article{

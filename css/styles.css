@@ -65,7 +65,7 @@ main{
     font-size: 0.85em;
     background-color:#858688;
 }
-.destacado img{ /*Ahora mismo no hace nada porque las imágenes ya están en el formato 330*120*/
+.destacado img{ /*Ahora mismo no hace nada porque las imágenes ya están en el formato 330x120*/
     width: 330px;
     height: 120px;
 }
@@ -120,4 +120,20 @@ footer{
     height: 70px;
     background-color: #4b4b4d;
     margin-bottom: 20px;
+    padding: 0 20px;
+    color:rgb(241, 241, 241) ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    align-items: center;
+}
+.contacto{
+    text-align: center;
+}
+.datos-contacto{
+    text-align: left;
+    font-size: 0.8em;
+    line-height: 0.5em;
+}
+.copyright{
+    grid-column: 4/4; 
 }

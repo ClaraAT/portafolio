@@ -4,9 +4,9 @@ body{
     margin: 0 auto;
 }
 
-/*Header*/
+/*HEADER*/
 header{
-    background-color: cadetblue;
+    background-color: #4b4b4d;
     height: 120px;
     margin: 20px 0;
 }
@@ -22,21 +22,21 @@ header{
     font-size: 2.3em;
     padding:30px 30px 0 0;
 }
-.social-icons a{
-    
+i{
+    color:rgb(238, 238, 238);
 }
 
-/*Navigation*/
+
+/*NAVIGATION*/
 nav{
 display: flex;
 justify-content: space-between;/*usar todo el ancho disponible*/
 }
 
 nav a{
-width: 200px;
+width: 198px;
 height: 50px;
-background-color:rgb(156, 156, 156) ;
-border: 2px solid white ;
+background-color:#97989a ;
 color: rgb(24, 24, 24);
 display: flex;
 align-items: center; /*alinear verticalmente*/
@@ -50,17 +50,74 @@ nav a:link {
 nav a:hover{
     color:white;
 }
-
-/*Destacados*/
+/*CONTENIDO*/
+main{
+    margin: 25px 0;
+}
+/*DESTACADOS*/
 .destacados{
     display: flex;
     justify-content: space-between;
 }
-.destacados img{
+.destacado{
     width: 330px;
+    height: 190px;
+    font-size: 0.85em;
+    background-color:#858688;
 }
-.preview{
-    display: flex;
-    background-color: gainsboro;
+.destacado img{ /*Ahora mismo no hace nada porque las imágenes ya están en el formato 330*120*/
+    width: 330px;
+    height: 120px;
 }
-
+.destacado p{
+    padding: 0 10px;
+    color: rgb(241, 241, 241);
+}
+.destacado button{
+    position: relative;
+    left:242px;
+    bottom: 24px;
+    background-color: none;
+}
+/*ARTÍCULO PRINCIPAL*/
+article{
+    background-color: #858688;
+    margin-top: -10px;
+}
+.container{
+    display:block;
+    margin:auto;
+    width: 600px;
+    background-color: #4b4b4d;
+    color: rgb(255, 255, 255);
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.8em;
+    
+    padding-top:20px;
+}
+article img{
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+figcaption{
+    text-align: center;
+    color: rgb(224, 223, 223);
+    font-size: 0.9em;
+}
+.text-area{
+    padding: 0 30px 30px 30px;
+}
+q{
+    font-style: italic;
+    font-size: 1.5em;
+}
+/*FOOTER*/
+footer{
+    height: 70px;
+    background-color: #4b4b4d;
+    margin-bottom: 20px;
+}
